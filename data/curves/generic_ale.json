@@ -1,0 +1,30 @@
+{
+    "name": "Generic Ale",
+    "description": "A Generic Ale Beer",
+    "curve": [
+        {
+            "hour": 0,
+            "temperature": 15
+        },
+        {
+            "hour": 24,
+            "temperature": 20
+        },
+        {
+            "hour": 120,
+            "temperature": 20
+        },
+        {
+            "hour": 144,
+            "temperature": 22
+        },
+        {
+            "hour": 168,
+            "temperature": 22
+        },
+        {
+            "hour": 192,
+            "temperature": 0
+        }
+    ]
+}

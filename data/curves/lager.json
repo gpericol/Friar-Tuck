@@ -1,0 +1,30 @@
+{
+    "name": "Lager",
+    "description": "A Lager Beer",
+    "curve": [
+        {
+            "hour": 0,
+            "temperature": 10
+        },
+        {
+            "hour": 24,
+            "temperature": 12
+        },
+        {
+            "hour": 144,
+            "temperature": 12
+        },
+        {
+            "hour": 168,
+            "temperature": 20
+        },
+        {
+            "hour": 216,
+            "temperature": 20
+        },
+        {
+            "hour": 240,
+            "temperature": 0
+        }
+    ]
+}

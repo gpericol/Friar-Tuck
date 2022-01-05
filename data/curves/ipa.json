@@ -1,0 +1,30 @@
+{
+    "name": "IPA",
+    "description": "An IPA Beer",
+    "curve": [
+        {
+            "hour": 0,
+            "temperature": 12
+        },
+        {
+            "hour": 24,
+            "temperature": 17
+        },
+        {
+            "hour": 144,
+            "temperature": 17
+        },
+        {
+            "hour": 168,
+            "temperature": 20
+        },
+        {
+            "hour": 216,
+            "temperature": 20
+        },
+        {
+            "hour": 240,
+            "temperature": 0
+        }
+    ]
+}
