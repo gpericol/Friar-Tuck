@@ -6,7 +6,7 @@ import argparse
 
 from data.config.config import *
 from curve.curve import Curve
-from hardware.fake_hardware import FakeHardware
+from hardware.real_hardware import *
 from thermostat.static_thermostat import StaticThermostat
 from thermostat.smart_thermostat import SmartThermostat
 
@@ -64,7 +64,7 @@ def main():
         print(f"error: wrong curve number")
         exit()
 
-    hardware = FakeHardware()
+    hardware = RealHardware()
     
     if args.static:
         thermostat = StaticThermostat(hardware, args.static[1], args.static[0])
