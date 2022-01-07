@@ -47,12 +47,13 @@ class RealHardware(AbstractHardware):
             
 
     def toggle_heater(self, turned_on):
-        GPIO.output(self.in_heater,True)
-        GPIO.output(self.in_cooler,False)
+        GPIO.output(self.in_heater,turned_on)
+        self.heater = turned_on
+
 
     def toggle_cooler(self, turned_on):
-        GPIO.output(self.in_heater,False)
-        GPIO.output(self.in_cooler,True)
+        GPIO.output(self.in_cooler,turned_on)
+        self.cooler = turned_on
 
     def turn_off(self):
         GPIO.cleanup()
